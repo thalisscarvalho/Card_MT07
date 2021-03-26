@@ -109,10 +109,12 @@ body {
 }
 .container .card:hover h3  {
     opacity: 1;
+    margin-left: 10px;
     transition: 0.5s;
 }
 .container .card:hover ul {
     opacity: 1;
+    margin-left: 10px;
     transition: 0.5s;
 }
 /*-------------------------------*/
@@ -181,19 +183,21 @@ a {
         align-items: center;
     }
     .container .card:hover h3  {
-        margin-top: 50px;
+        margin-top: 20px;
+        margin-left: 10px;
         opacity: 1;
         transition: 0.5s;
     }
     .container .card:hover ul {
-        margin-top: 50px;
+        margin-top: 20px;
+        margin-left: 10px;
         opacity: 1;
         transition: 0.5s;
     }
     footer {
         position: absolute;
         left: 550px;
-        margin-top: 860px;
+        margin-top: 960px;
         font-family: monospace;
         font-size: 12pt;
         text-transform: uppercase;
